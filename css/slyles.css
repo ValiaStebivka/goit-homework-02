@@ -25,7 +25,7 @@ body {
 .link {
   text-decoration: none;
 }
-.logo span {
+.logo-white {
   color: var(--navyblue);
 }
 
@@ -51,11 +51,12 @@ body {
 }
 
 .contacts {
-  font-style: none;
+  font-style: normal;
 }
 
 .contacts-link {
   color: var(--state);
+  line-height: 1.5;
   /* Body */
   letter-spacing: 0.32px;
 }
@@ -80,8 +81,8 @@ body {
 }
 
 .intro-button {
-  padding: 16px 32px;
   background: var(--iris);
+  font-family: "Roboto", sans-serif;
   color: var(--white);
   cursor: pointer;
   /* Button Text */
@@ -107,23 +108,30 @@ body {
   text-transform: capitalize;
 }
 
+.team {
+  background-color: var(--cloud);
+}
+
+.team-item {
+  background-color: var(--white);
+}
+
 .section-item-title {
   color: var(--navyblue);
 
   /* Header 3 */
   font-size: 20px;
-  font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
 
-.section-title-info {
-  /* Body */
-  letter-spacing: 0.32px;
+.footer {
+  background-color: var(--navyblue);
 }
 
 .footer-text {
   color: var(--cloud);
+  line-height: 1.5;
   /* Body */
   letter-spacing: 0.32px;
 }
