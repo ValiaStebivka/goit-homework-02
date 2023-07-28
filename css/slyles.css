@@ -99,12 +99,12 @@ body {
 .section-title {
   color: var(--navyblue);
   text-align: center;
+  letter-spacing: 0.02em;
 
   /* Header 2 */
 
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.72px;
   text-transform: capitalize;
 }
 
@@ -118,11 +118,18 @@ body {
 
 .section-item-title {
   color: var(--navyblue);
+  font-weight: 500;
 
   /* Header 3 */
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.4px;
+}
+
+.section-item-info {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-size: 16px;
 }
 
 .footer {
