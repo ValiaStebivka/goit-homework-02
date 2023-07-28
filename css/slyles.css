@@ -3,7 +3,7 @@
   --navyblue: #2e2f42;
   --cornflower: #e7e9fc;
   --iris: #4d5ae5;
-  --ocean: #40488f;
+  --ocean: #404bbf;
   --cloud: #f4f4fd;
   --white: #ffffff;
 }
@@ -12,37 +12,51 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--state);
   background-color: var(--white);
-  line-height: 150%;
 }
 .logo {
   color: var(--iris);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 116.667%;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+}
+.link {
   text-decoration: none;
 }
-
-.nav-link {
+.logo span {
   color: var(--navyblue);
+}
 
+.list-item {
   /* Body Medium */
   font-weight: 500;
-  text-decoration: none;
-  letter-spacing: 0.32px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-.nav-link:hover,
-.nav-link:focus {
+
+.list-item-link {
+  color: var(--navyblue);
+}
+
+.list {
+  list-style: none;
+}
+
+.list-item-link:hover,
+.list-item-link:focus {
   color: var(--ocean);
+}
+
+.contacts {
+  font-style: none;
 }
 
 .contacts-link {
   color: var(--state);
   /* Body */
-  font-style: normal;
-  text-decoration: none;
   letter-spacing: 0.32px;
 }
 
@@ -61,24 +75,19 @@ body {
 
   /* Header 1 */
   font-size: 56px;
-  line-height: 107.143%;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 
 .intro-button {
-  display: inline-flex;
   padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
-  border-radius: 4px;
   background: var(--iris);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: var(--white);
   cursor: pointer;
   /* Button Text */
   font-size: 16px;
   font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.64px;
 }
 .intro-button:hover,
@@ -93,7 +102,7 @@ body {
   /* Header 2 */
 
   font-size: 36px;
-  line-height: 111.111%;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -104,7 +113,7 @@ body {
   /* Header 3 */
   font-size: 20px;
   font-weight: 500;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 
