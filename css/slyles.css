@@ -25,8 +25,13 @@ body {
 .link {
   text-decoration: none;
 }
-.logo-white {
+
+.logo-blue {
   color: var(--navyblue);
+}
+
+.logo-white {
+  color: var(--cloud);
 }
 
 .list-item {
